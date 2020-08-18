@@ -35,9 +35,7 @@ def printer(attendees)
    i += 1 
  end
  assign_rooms(attendees).each do |room_assignment|
-    room_assignments[i] = "Hello, #{attendees[i]}! You'll be assigned to room #{room_number}!"
-    room_number += 1
-    i += 1
+    room_assignments[i]
   end
   puts badges
   puts room_assignments
