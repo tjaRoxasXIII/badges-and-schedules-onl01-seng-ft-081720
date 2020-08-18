@@ -31,6 +31,7 @@ def printer(attendees)
    puts badges[i]
    i += 1
  end
+ i = 0
  assign_rooms(attendees).each do
    puts room_assignments[i]
    i += 1
