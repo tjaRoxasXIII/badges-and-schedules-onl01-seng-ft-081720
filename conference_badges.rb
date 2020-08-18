@@ -31,8 +31,7 @@ def printer(attendees)
  badges = []
  room_assignments = []
  batch_badge_creator(attendees).each do |badge_name|
-   badges[i] = "Hello, my name is #{badge_name}."
-   i += 1 
+   badges[i]
  end
  assign_rooms(attendees).each do |room_assignment|
     room_assignments[i]
