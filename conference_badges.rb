@@ -30,6 +30,7 @@ def printer(attendees)
   output = []
   batch_badge_creator(attendees).each do |output|
     output[i] = batch_badge_creator(attendees)
+    i += 1
   end
     puts output
 end 
