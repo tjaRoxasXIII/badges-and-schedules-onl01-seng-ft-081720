@@ -5,8 +5,9 @@ end
 
 def batch_badge_creator(attendees)
   attendees.each do |badge_name|
-   return "Hello, my name is #{badge_name}."
+   badge = "Hello, my name is #{badge_name}."
   end
+  return badge
 end
 
 def assign_rooms(attendees)
