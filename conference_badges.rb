@@ -30,5 +30,5 @@ def printer(attendees)
  assign_rooms(attendees)
  i = 0
   puts badges[i]
-  
+  i += 1
 end 
